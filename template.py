@@ -153,19 +153,34 @@ if __name__ == '__main__':
             "Action = ", wm.getTeammateNearestToBall(True).Action()
 
         # get an opponent specified by uniform number
-        # ex.　opponent 11 player
+        # ex.　opponent 11 player ( at this cycle )
         print "wm.theirPlayer(unum)",\
             "unum = ", wm.theirPlayer(11).unum(), \
             "isKickable = ", wm.theirPlayer(11).isKickable(), \
             "distFromBall = ", wm.theirPlayer(11).distFromBall(), \
             "Action = ", wm.theirPlayer(11).Action()
 
-        # ex.　teammate 6 player
+        # ex. opponent 6 player( at 116 cycle )
+        print "wm.theirPlayer(unum)",\
+            "unum = ", wm.theirPlayer(6, 116).unum(), \
+            "isKickable = ", wm.theirPlayer(6, 116).isKickable(), \
+            "distFromBall = ", wm.theirPlayer(6, 116).distFromBall(), \
+            "Action = ", wm.theirPlayer(6, 116).Action()
+
+        # get an teammate specified by uniform number
+        # ex.　teammate 6 player ( at this cycle )
         print "wm.ourPlayer(unum)",\
             "unum = ", wm.ourPlayer(6).unum(), \
             "isKickable = ", wm.ourPlayer(6).isKickable(), \
             "distFromBall = ", wm.ourPlayer(6).distFromBall(), \
             "Action = ", wm.ourPlayer(6).Action()
+
+        # ex.　teammate 9 player( at 426 cycle )
+        print "wm.ourPlayer(unum)",\
+            "unum = ", wm.ourPlayer(9, 426).unum(), \
+            "isKickable = ", wm.ourPlayer(9, 426).isKickable(), \
+            "distFromBall = ", wm.ourPlayer(9, 426).distFromBall(), \
+            "Action = ", wm.ourPlayer(9, 426).Action()
 
         # get the opponent defense line ( X coordinate )
         print "wm.theirDefenseLineX()", wm.theirDefenseLineX()
