@@ -7,8 +7,8 @@
 
   template.py
   - This is an example of how to use world_model.py.
-  - how to use : python template.py 20170728~~.rcg(The rcg file you want to analyze)
+  - how to use : 'python template.py 20170728~~.rcg(The rcg file you want to analyze)'
   
   through_pass_counter.py
   - This script analyzes the through pass of the team on the left. (use world_model.py)
-  - how to use : python through_pass_counter.py 20170728~~.rcg(The rcg file you want to analyze)
+  - how to use : 'python through_pass_counter.py 20170728~~.rcg(The rcg file you want to analyze)'
