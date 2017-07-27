@@ -1,5 +1,5 @@
 # Python Script for agent2d(HELIOS-base)
-  analysis game log for agent2d helios-base.
+  analysis game log for agent2d(helios-base).
   
   world_model.py
   - It is a script to easily analyze the log file generated after agent2d's match.
