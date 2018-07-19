@@ -1,4 +1,4 @@
-# Python Script for agent2d(HELIOS-base)
+# agent2d(HELIOS-base) logfile analyzer
   analysis game log for agent2d(helios-base).
   
   world_model.py
